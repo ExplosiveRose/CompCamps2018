@@ -3,3 +3,27 @@ text-align: center;
 display: block;
 margin: 0 auto;
 }
+
+h3{
+  color: #874800;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-color: #BEE6FF;
+}
+
+li{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.nav-link{
+  text-decorations: none;
+  color: black;
+}
+ .nav-link:hover{
+   color: #005DB2;
+   font-size: 23px;
+ }

@@ -1,3 +1,20 @@
+@keyframes Black_dragon_preloader {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-webkit-keyframes Black_dragon_preloader {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.dragonredANI{
+  animation-name: Black_dragon_preloader;
+  -webkit-animation-name: Black_dragon_preloader;
+  animation-duration: 5s;
+  border-radius: 50%;
+}
+
 .center{
 text-align: center;
 display: block;
@@ -5,12 +22,14 @@ margin: 0 auto;
 }
 
 h3{
-  color: #874800;
+  color: black;
 }
 
 body{
     font-family: 'Exo 2', sans-serif;
     background-color: #BEE6FF;
+    margin: 0px;
+    width: 100%;
 }
 
 li{
@@ -23,7 +42,25 @@ li{
   text-decorations: none;
   color: black;
 }
+
  .nav-link:hover{
-   color: #005DB2;
+   color: #A1301A;
    font-size: 23px;
  }
+
+.nav-item{
+  padding: 10px;
+  font-size: 20px;
+  display: inline;
+}
+
+.nav{
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  background-color: #9EBFD4;
+}
+
+.nav-container{
+  margin: 0px;
+  padding: 25px 0px;
+}

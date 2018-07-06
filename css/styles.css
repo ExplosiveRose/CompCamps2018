@@ -21,13 +21,29 @@ display: block;
 margin: 0 auto;
 }
 
+p{
+  color: #FCF1A2;
+}
+
+h4{
+  color: #173E3C;
+}
+
+h1{
+  color: #93391A;
+}
+
 h3{
-  color: black;
+  color: #FCF1A2;
+}
+
+h2{
+  color: #FCF1A2;
 }
 
 body{
     font-family: 'Exo 2', sans-serif;
-    background-color: #BEE6FF;
+    background-color: #173E3C;
     margin: 0px;
     width: 100%;
 }
@@ -40,11 +56,11 @@ li{
 
 .nav-link{
   text-decorations: none;
-  color: black;
+  color: #FCF1A2;
 }
 
  .nav-link:hover{
-   color: #A1301A;
+   color: #93391A;
    font-size: 23px;
  }
 
@@ -57,7 +73,7 @@ li{
 .nav{
   margin: 0px 0px 10px 0px;
   padding: 0px;
-  background-color: #9EBFD4;
+  background-color: #0A292E;
 }
 
 .nav-container{
